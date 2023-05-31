@@ -22,4 +22,4 @@ jobs:
 
       - name: Deploy
         run: |
-          aws s3 index.html s3://github-actions-deploy-ohlocal
+          aws s3 cp index.html s3://github-actions-deploy-ohlocal
